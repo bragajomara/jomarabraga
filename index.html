@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+</head>
+<body>
+ <form>
+    <fieldset>
+        <legend>Cadastro de Usuário</legend>
+        <label for="email">Email </label>
+        <input id="email" placeholder="mail@email.com" name="email" required>
+        
+
+        <br>
+
+        <label for="senha"> Senha</label>
+        <input id="Senha" type="password" name="senha">
+
+        <section>
+            <p>Selecione a turma</p>
+
+            <div>
+                <input type="radio" name="turma"
+                value="T18">
+                <label>T18</label>
+                
+                </div>
+
+                <div>
+                <input type="radio" name="turma"
+                value="T19">
+                <label>T19</label>
+
+             </div>
+
+             <div>
+                <input type="radio" name="turma"
+                value="T19">
+                <label>T20</label>
+            
+             </div>
+
+        </section>
+
+        <br>
+
+        <label for="Instrutor">Instrutor:</label>
+        <select id="instrutor">
+            <option value="Lorena">Lorena</option>
+            <option value="MAtheus">MAtheus</option>
+            <option value="Alex">Alex</option>
+            <option value="Thiago">Thiago</option>
+            <option value="Wesley">Wesley</option>
+        </select>
+
+        <div>
+        <label for="">Descrição</label> <br>
+        <textarea placeholder="Descreva aqui uma breve Descrição" maxlength="500" cols="50" rows="4"></textarea>
+        </div>
+
+        <!--Botão-->
+
+    <input type="submit" value="Enviar informações" name="enviar informações">
+    <button>Clique Aqui</button>
+
+
+
+
+    </fieldset>
+ </form>
+</body>
+</html>
